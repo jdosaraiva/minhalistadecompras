@@ -1,5 +1,5 @@
 <div class="panel panel-default">
-    <div class="panel-body pre-scrollable" style="max-height: 400px;">
+    <div class="panel-body pre-scrollable" style="max-height: 350px;">
         <div class="list-group">
             <a ng-repeat="produto in $ctrl.produtos | orderBy:['-quantidade','nome']" class="list-group-item">
                 <span class="badge pull-right" ng-click="$ctrl.remover(produto)">{{produto.quantidade}}</span>
