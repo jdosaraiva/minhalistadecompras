@@ -8,7 +8,7 @@ angular.module('produtosList')
 
                 self.total = 0.0;
 
-                $http.get('http://localhost:' + process.env.PORT + '/produtos')
+                $http.get('https://lcompras.herokuapp.com/produtos')
                 .then(function(response) {
                     self.produtos = response.data;
                 });
