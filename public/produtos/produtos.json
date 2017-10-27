@@ -1,0 +1,93 @@
+[
+    {
+        "nome" : "Carne",
+        "quantidade" : 0,
+        "preco" : 20.00,
+        "unidade" : "1 Kg",
+        "editable" : false
+    },
+    {
+        "nome" : "Leite",
+        "quantidade" : 0,
+        "preco" : 3.50,
+        "unidade" : "1l",
+        "editable" : false
+    },
+    {
+        "nome" : "Feijão",
+        "quantidade" : 0,
+        "preco" : 4.80,
+        "unidade" : "1 Kg",
+        "editable" : false
+    },
+    {
+        "nome" : "Arroz",
+        "quantidade" : 0,
+        "preco" : 13.00,
+        "unidade" : "pacote 5Kg",
+        "editable" : false
+    },
+    {
+        "nome" : "Farinha de Trigo",
+        "quantidade" : 0,
+        "preco" : 3.00,
+        "unidade" : "1 Kg",
+        "editable" : false
+    },
+    {
+        "nome" : "Batata",
+        "quantidade" : 0,
+        "preco" : 2.50,
+        "unidade" : "1 Kg",
+        "editable" : false
+    },
+    {
+        "nome" : "Tomate",
+        "quantidade" : 0,
+        "preco" : 4.00,
+        "unidade" : "1 Kg",
+        "editable" : false
+    },
+    {
+        "nome" : "Pão",
+        "quantidade" : 0,
+        "preco" : 2.00,
+        "unidade" : "7 unidades",
+        "editable" : false
+    },
+    {
+        "nome" : "Café",
+        "quantidade" : 0,
+        "preco" : 10.00,
+        "unidade" : "0,5 Kg",
+        "editable" : false
+    },
+    {
+        "nome" : "Banana",
+        "quantidade" : 0,
+        "preco" : 2.50,
+        "unidade" : "1 Kg",
+        "editable" : false
+    },
+    {
+        "nome" : "Açucar",
+        "quantidade" : 0,
+        "preco" : 2.70,
+        "unidade" : "1 Kg",
+        "editable" : false
+    },
+    {
+        "nome" : "Óleo",
+        "quantidade" : 0,
+        "preco" : 3.50,
+        "unidade" : "lata 900 ml",
+        "editable" : false
+    },
+    {
+        "nome" : "Manteiga",
+        "quantidade" : 0,
+        "preco" : 13.00,
+        "unidade" : "Pote 1/2 Kg",
+        "editable" : false
+    }
+]

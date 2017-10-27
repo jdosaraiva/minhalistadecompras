@@ -1,21 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="produtosApp">
 <head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <title>Z-Web AH</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
 </head>
 <body>
 
-<div class="container">
-  <h1>My First Bootstrap Page</h1>
-  <p>This part is inside a .container class.</p>
-  <p>The .container class provides a responsive fixed width container.</p>
-</div>
+    <div class="container-fluid bg-4 navbar-fixed-top btn-primary">
+        <h2>Lista de Compras</h2>
+    </div>
 
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.js"></script>
+    <div ng-view style="margin-top:50px"></div>
+
+    <div class="container-fluid bg-4 text-center navbar-fixed-bottom btn-info">
+      <a href="#!/about">Sobre</a>
+      <p>&copy; 2017 Saraiva Soluções e Serviçõs em TI<p>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/angular.js"></script>
+    <script src="js/angular-route.js"></script>
+
+    <script src="js/app.module.js"></script>
+    <script src="js/app.config.js"></script>
+    <script src="produtos/produtos-list.module.js"></script>
+    <script src="produtos/produtos-list.component.js"></script>
+
 </body>
 </html>

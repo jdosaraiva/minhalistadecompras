@@ -1,0 +1,20 @@
+<div class="panel panel-default">
+    <div class="panel-body pre-scrollable" style="max-height: 450px;">
+        <div class="list-group">
+            <a ng-repeat="produto in $ctrl.produtos | orderBy:['-quantidade','nome']" class="list-group-item">
+                <span class="badge pull-right" ng-click="$ctrl.remover(produto)">{{produto.quantidade}}</span>
+                <h4 class="list-group-item-heading" ng-click="$ctrl.adicionar(produto)">{{produto.nome}}</h4>
+                <label ng-show="produto.editable">
+                    Preço R$&nbsp;
+                    <input type="number" class="list-group-item-text" ng-model="produto.preco" step="0.01" ng-blur="$ctrl.save(produto)">
+                </label>
+                <span ng-hide="produto.editable" ng-click="$ctrl.edit(produto)" class="list-group-item-text">
+                    Preço: {{produto.preco | currency : "R$ " : 2}}
+                </span>
+            </a>
+        </div>
+    </div>
+    <div class="panel-body">
+        <h3>Total: {{$ctrl.total | currency : "R$ " : 2}}</h3>
+    </div>
+</div>
